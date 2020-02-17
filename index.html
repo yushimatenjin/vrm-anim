@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name='viewport'
+        content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no' />
+    <meta charset='utf-8'>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="manifest" href="./manifest.json">
+    <style></style>
+    <title>アニメーションテスト(VRM)</title>
+    <script src="./playcanvas-stable.min.js"></script>
+    <script>
+        ASSET_PREFIX = "";
+        SCRIPT_PREFIX = "";
+        SCENE_PATH = "876724.json";
+        CONTEXT_OPTIONS = {
+            'antialias': true,
+            'alpha': false,
+            'preserveDrawingBuffer': false,
+            'preferWebGl2': true
+        };
+        SCRIPTS = [28157590, 28157571, 28157606, 28157596, 28157589, 28157592, 28157578, 28157574, 28157565, 28157581, 28157567, 28157603];
+        CONFIG_FILENAME = "config.json";
+        INPUT_SETTINGS = {
+            useKeyboard: true,
+            useMouse: true,
+            useGamepads: false,
+            useTouch: true
+        };
+        pc.script.legacy = false;
+        PRELOAD_MODULES = [
+            { 'moduleName': 'Ammo', 'glueUrl': './files/assets/28157585/1/ammo.wasm.js', 'wasmUrl': './files/assets/28157583/1/ammo.wasm.wasm', 'fallbackUrl': './files/assets/28157573/1/ammo.js', 'preload': true },
+        ];
+    </script>
+</head>
+
+<body>
+    <script src="./__modules__.js"></script>
+    <script src="./__start__.js"></script>
+    <script src="./__loading__.js"></script>
+</body>
+
+</html>
